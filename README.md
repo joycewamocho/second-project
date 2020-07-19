@@ -1,6 +1,5 @@
 #Project Name:
 Akan Name Independent project
-th app application that takes the users birthday to get the day of the week that they were born,and depending on their gender output to get their akan name
 ## Project description:
 th app application that takes the users birthday to get the day of the week that they were born,and depending on their gender output to get their akan name
 ## Authors information:
