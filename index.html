@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Independent project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+   
+
+</head>
+
+<body>
+    <div class="container">
+            <div class="jumbotron">
+        <h1>Akan Name</h1>
+        <p>This application will tell you the day you were born <br>
+       It displays the name of your day. <br>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.
+      <br>This application will help you know the day of your birth and the name you would be called if you were born in Ghana.
+    <br>If you submit the application will dislay your akan name and the check in the table the day of your birth according to your akan Name.</p>
+    </div>
+
+  <form>
+    <div class="form-group">
+      <label for="usr">Names:</label><br>
+      <input type="text" class="form-control" id="usr" name="Name">
+    
+      <h2>Gender:</h2>
+    <input type="radio" name="Gender" value="Male">
+    Male<br>
+    <input type="radio" name="Gender" value="Female">
+    Female
+    <h3>Date of Birth</h3>
+    <input type="date" id="result" name="date">
+  </div>
+  </form> 
+  <div class="form-group">
+   <label for="akan">Your akanName is:<p id="akan"></p></label>
+  </div>
+  
+   <button type="submit" id="akan" class="btn btn-primary" onclick="akanName()">Submit</button>
+  <br>
+  <br>
+   
+   <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Days of the week</th>
+          <th>Male</th>
+          <th>female</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sunday</td>
+          <td>Kwasi</td>
+          <td>Akosua</td>
+        </tr>
+        <tr>
+          <td>Monday</td>
+          <td>Kwadwo</td>
+          <td>Adwoa</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>Kwabena</td>
+          <td>Abenaa</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>Kwaku</td>
+            <td>Akua</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>Yaw</td>
+            <td>Yaa</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Kofi</td>
+            <td>Afua</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>Kwame</td>
+            <td>Ama</td>
+          </tr>
+      </tbody>
+    </table>
+
+  </div> 
+
+  <script src="main.js"></script>
+</body>
+</html>
